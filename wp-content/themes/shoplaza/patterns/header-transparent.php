@@ -36,6 +36,7 @@
 				</div>
 				<!-- /wp:buttons -->
 				<!-- wp:woocommerce/mini-cart {"hasHiddenPrice":true} /-->
+         		<!-- wp:search {"label":"' . esc_html__( 'Search', 'shoplaza' ) . '","showLabel":false,"placeholder":"Search Here...","width":100,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true} /-->
 			</div>
 			<!-- /wp:group -->
 		</div>
