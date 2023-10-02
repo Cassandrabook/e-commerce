@@ -98,3 +98,13 @@ require get_template_directory() . '/inc/icon-function.php';
 
 // Theme About Page
 require get_template_directory() . '/inc/about.php';
+
+
+
+
+
+//widgets menu
+if (function_exists("register_sidebar")){
+
+	register_sidebar();
+}
