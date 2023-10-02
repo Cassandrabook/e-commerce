@@ -98,3 +98,5 @@ require get_template_directory() . '/inc/icon-function.php';
 
 // Theme About Page
 require get_template_directory() . '/inc/about.php';
+
+add_theme_support('menus');
