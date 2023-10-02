@@ -1,0 +1,4 @@
+2023-10-02T06:38:39+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\woocommerce\e-commerce\wp-includes\block-patterns\social-links-shared-background-color.php on line 9
+
+2023-10-02T06:43:27+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\woocommerce\e-commerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductButton.php on line 273
+
