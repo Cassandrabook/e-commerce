@@ -1,0 +1,18 @@
+2023-10-04T07:26:05+00:00 CRITICAL Uncaught Error: Class "NF_Abstracts_Input" not found in /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/includes/Fields/Textbox.php:6
+Stack trace:
+#0 /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/ninja-forms.php(790): require_once()
+#1 /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/includes/Fields/Address.php(6): Ninja_Forms->autoloader('Fields_Textbox')
+#2 /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/ninja-forms.php(790): require_once('/Applications/M...')
+#3 [internal function]: Ninja_Forms->autoloader('Fields_Address')
+#4 /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/ninja-forms.php(988): class_exists('NF_Fields_Addre...')
+#5 /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/ninja-forms.php(743): Ninja_Forms::load_classes('Fields')
+#6 /Applications/MAMP/htdocs/woocommerce/wp-includes/class-wp-hook.php(310): Ninja_Forms->plugins_loaded('')
+#7 /Applications/MAMP/htdocs/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/MAMP/htdocs/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/woocommerce/wp-settings.php(495): do_action('plugins_loaded')
+#10 /Applications/MAMP/htdocs/woocommerce/wp-config.php(96): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/woocommerce/wp-load.php(50): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/woocommerce/wp-cron.php(46): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/woocommerce/wp-content/plugins/ninja-forms/includes/Fields/Textbox.php on line 6
+
