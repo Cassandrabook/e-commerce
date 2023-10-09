@@ -19,7 +19,6 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
 					<div class="wp-block-group">
-						<!-- wp:search {"label":"' . esc_html__( 'Search', 'shoplaza' ) . '","showLabel":false,"placeholder":"Search Here...","width":100,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true} /-->
 					</div>
 					<!-- /wp:group -->
 				</div>
