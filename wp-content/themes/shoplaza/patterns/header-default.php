@@ -24,6 +24,7 @@
          <!-- /wp:group -->
          <!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
          <!-- /wp:navigation -->
+         <!-- wp:search {"label":"' . esc_html__( 'Search', 'shoplaza' ) . '","showLabel":false,"placeholder":"Search Here...","width":100,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true} /-->
       </div>
       <!-- /wp:group -->
    </div>

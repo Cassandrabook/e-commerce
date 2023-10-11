@@ -1,0 +1,2 @@
+2023-10-02T07:55:51+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.
+2023-10-02T08:00:38+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.
